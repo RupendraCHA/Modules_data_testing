@@ -1,0 +1,30 @@
+.module-data-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  .module-data-section-container {
+    background-color: rgba(112, 152, 189, 0.274);
+    padding: 30px;
+    border-radius: 12px;
+
+    .section-data {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      .sales-modules {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          font-size: 18px;
+          padding: 6px 12px;
+          border-radius: 8px;
+          border: 1px solid #808080;
+        }
+      }
+    }
+  }
+}
